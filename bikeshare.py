@@ -18,7 +18,12 @@ DEBUG = 0
 # Introduction to VersionControl, Project: Post your Work on GitHub
 # a) general remarks
 # Single quotes will be used throughout this script as string delimiters -
-# single quotes within strings will be escaped appropriately.
+#   single quotes within strings will be escaped appropriately.
+# A user-input of 'x' at most of the interactive prompts will terminate this
+#   program gracefully.
+# MDO002  20200201
+# Added additional documentation in this head block as well
+#   as in function show_raw_data
 #
 # MDO002  20200102 Bayer Business Services, Markus Dolhaine
 # updated this header comment
@@ -356,6 +361,9 @@ def show_raw_data(df):
                       + '(five "more" rows at a time)  (yes/no)?\n')
     starting_row = 0
     while True:
+		# probably not seen by the project's submission review,
+		# this is already running a loop to provide a new set
+		# of five more detail records to the user, as long as requested!
         show_raw = input(initial_prompt).lower()
         while show_raw not in ['y', 'yes', 'n', 'no', 'x']:
             prompt = (sorry_prompt + initial_prompt + cancel_prompt)
