@@ -351,6 +351,9 @@ def show_raw_data(df):
                       + '(five "more" rows at a time)  (yes/no)?\n')
     starting_row = 0
     while True:
+		# probably not seen by the project's submission review,
+		# this is already running a loop to provide a new set
+		# of five more detail records to the user, as long as requested!
         show_raw = input(initial_prompt).lower()
         while show_raw not in ['y', 'yes', 'n', 'no', 'x']:
             prompt = (sorry_prompt + initial_prompt + cancel_prompt)
