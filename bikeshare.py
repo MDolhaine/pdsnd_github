@@ -14,9 +14,14 @@ DEBUG = 0
 # =============================================================================
 # MDO001  20191231 Bayer Business Services, Markus Dolhaine
 # Introduction to Python, Project: Explore US Bikeshare Data
+# MDO002:
+# Introduction to VersionControl, Project: Post your Work on GitHub
 # a) general remarks
 # Single quotes will be used throughout this script as string delimiters -
 # single quotes within strings will be escaped appropriately.
+#
+# MDO002  20200102 Bayer Business Services, Markus Dolhaine
+# updated this header comment
 #
 # =============================================================================
 
