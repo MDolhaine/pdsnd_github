@@ -16,7 +16,12 @@ DEBUG = 0
 # Introduction to Python, Project: Explore US Bikeshare Data
 # a) general remarks
 # Single quotes will be used throughout this script as string delimiters -
-# single quotes within strings will be escaped appropriately.
+#   single quotes within strings will be escaped appropriately.
+# A user-input of 'x' at most of the interactive prompts will terminate this
+#   program gracefully.
+# MDO002  20200201
+# Added additional documentation in this head block as well
+#   as in function show_raw_data
 #
 # =============================================================================
 
